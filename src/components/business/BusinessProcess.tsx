@@ -17,7 +17,7 @@ const steps = [
   },
   {
     id: "03",
-    title: "You&apos;re Live in 48 Hours",
+    title: "You're Live in 48 Hours",
     description:
       "We handle the paperwork, underwriting coordination, and setup so you can start accepting payments fast.",
     tag: "End-to-end handled",
