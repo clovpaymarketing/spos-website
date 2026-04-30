@@ -46,8 +46,8 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
-        <BrandLogo href="/" width={148} height={48} imageClassName="h-12 w-auto object-contain" />
+      <nav className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-20 md:h-24 flex items-center justify-between">
+        <BrandLogo href="/" width={220} height={64} imageClassName="h-16 w-auto object-contain" />
 
         <ul className="desktop-only items-center gap-7">
           {NAV.map((item) => (

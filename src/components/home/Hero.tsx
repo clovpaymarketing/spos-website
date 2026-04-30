@@ -12,24 +12,8 @@ const stats = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pt-20 md:pt-24 pb-12 md:pb-16">
-      {/* Video background */}
-      <div className="absolute inset-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&w=1600&q=80"
-          className="absolute inset-0 h-full w-full object-cover opacity-60"
-        >
-          <source
-            src="https://cdn.pixabay.com/video/2022/10/24/136211-762294080_large.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#070B1A]/95 via-[#070B1A]/75 to-[#070B1A]/40" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#070B1A]/60 via-transparent to-[#070B1A]" />
-      </div>
+      {/* Background removed (was video/image); use solid dark background */}
+      <div className="absolute inset-0 bg-[#070B1A]" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl text-center md:text-left">
