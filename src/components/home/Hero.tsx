@@ -12,8 +12,22 @@ const stats = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pt-20 md:pt-24 pb-12 md:pb-16">
-      {/* Background removed (was video/image); use solid dark background */}
-      <div className="absolute inset-0 bg-[#070B1A]" />
+      {/* Optimized local hero video background */}
+      <div className="absolute inset-0 bg-[#070B1A]" aria-hidden="true">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          disablePictureInPicture
+          className="absolute inset-0 h-full w-full object-cover object-center opacity-80"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#070B1A]/70 via-[#070B1A]/45 to-[#070B1A]/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#070B1A]/35 via-transparent to-[#070B1A]/55" />
+      </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl text-center md:text-left">

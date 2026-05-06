@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   title: "Clovpay Smart Payment Solutions",
   description:
     "Next-generation payment platform with in-store payments, e-commerce, analytics, cloud infrastructure and 24/7 support for modern businesses.",
+  icons: {
+    icon: "/logo-removebg-preview.png",
+    shortcut: "/logo-removebg-preview.png",
+    apple: "/logo-removebg-preview.png",
+  },
 };
 
 export default function RootLayout({
@@ -22,6 +27,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${jakarta.variable} h-full antialiased`}>
+      <head>
+        <link rel="icon" href="/logo-removebg-preview.png" />
+        <link rel="apple-touch-icon" href="/logo-removebg-preview.png" />
+        <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" />
+        <meta name="theme-color" content="#070B1A" />
+      </head>
       <body className="min-h-full flex flex-col bg-[#070B1A] text-white">
         <Navbar />
         <main className="flex-1 pt-16 md:pt-20">{children}</main>
