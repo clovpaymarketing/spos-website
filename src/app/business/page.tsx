@@ -4,6 +4,7 @@ import BusinessIntro from "@/components/business/BusinessIntro";
 import BusinessProcess from "@/components/business/BusinessProcess";
 import BusinessEdge from "@/components/business/BusinessEdge";
 import BusinessCTA from "@/components/business/BusinessCTA";
+import RealClientShowcase from "@/components/RealClientShowcase";
 
 export const metadata: Metadata = {
   title: "Business Growth Solutions Clovpay",
@@ -17,6 +18,7 @@ export default function BusinessPage() {
       <BusinessHero />
       <BusinessIntro />
       <BusinessProcess />
+      <RealClientShowcase />
       <BusinessEdge />
       <BusinessCTA />
     </>

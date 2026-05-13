@@ -6,6 +6,8 @@ import CoreValues from "@/components/about/CoreValues";
 import OurPromise from "@/components/about/OurPromise";
 import Journey from "@/components/about/Journey";
 import { CTABanner } from "@/components/ui";
+import ClientImplementationShowcase from "@/components/ClientImplementationShowcase";
+import ClientSuccessStory from "@/components/ClientSuccessStory";
 
 export const metadata: Metadata = {
   title: "About Clovpay",
@@ -20,7 +22,9 @@ export default function AboutPage() {
       <MissionVision />
       <HowWeWork />
       <CoreValues />
+      <ClientImplementationShowcase />
       <OurPromise />
+      <ClientSuccessStory />
       <Journey />
       <CTABanner
         title="Find the right processor for your business."
