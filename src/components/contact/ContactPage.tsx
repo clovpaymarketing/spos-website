@@ -197,8 +197,8 @@ export default function ContactPage() {
                     1240b E Stringham Ave, Salt Lake City, UT 84106
                   </p>
                   <p className="mt-3 text-sm text-white/70">
-                    <a href="mailto:Clovpaymarketing@gmail.com" className="hover:text-white transition">
-                      Clovpaymarketing@gmail.com
+                    <a href="mailto:info@clovpay.com" className="hover:text-white transition">
+                      info@clovpay.com
                     </a>
                   </p>
                 </div>

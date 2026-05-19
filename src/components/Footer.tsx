@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Clock } from "lucide-react";
+import { Mail, MapPin, Clock, Phone } from "lucide-react";
 import BrandLogo from "./BrandLogo";
 
 const iconCls = "h-4 w-4";
@@ -64,12 +64,21 @@ export default function Footer() {
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <Mail size={16} className="mt-0.5 text-[#1FA7A1]" />
+              <Phone size={16} className="mt-0.5 text-[#1FA7A1]" />
               <a
-                href="mailto:Clovpaymarketing@gmail.com"
+                href="tel:+14353143328"
                 className="hover:text-white transition"
               >
-                Clovpaymarketing@gmail.com
+                (435) 314-3328
+              </a>
+            </li>
+            <li className="flex items-start gap-3">
+              <Mail size={16} className="mt-0.5 text-[#1FA7A1]" />
+              <a
+                href="mailto:info@clovpay.com"
+                className="hover:text-white transition"
+              >
+                info@clovpay.com
               </a>
             </li>
             <li className="flex items-start gap-3">
